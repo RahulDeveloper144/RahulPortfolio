@@ -9,10 +9,10 @@ const Layout = ({ children, envData }) => {
   const test = "z";
   const router = useRouter();
   const downloadPdf = () => {
-    const pdfUrl = "/pdf/Rahul.pdf";
+    const pdfUrl = "/pdf/RahulTechsunset.pdf";
     const link = document.createElement("a");
     link.href = pdfUrl;
-    link.download = "Rahul.pdf";
+    link.download = "Rahul_Techsunset.pdf";
     link.click();
   };
 
